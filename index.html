@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,500;1,700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="setting">
+        <div class="icon"><i class="fa-solid fa-gear"></i></div>
+        <div class="color">
+            <h4>colors</h4>
+            <ul class="colors">
+                <li data-color="#FFD124" class="activecolor"></li>
+                <li data-color="#7D1E6A" class="nonactivecolor"></li>
+                <li data-color="#B22727" class="nonactivecolor"></li>
+                <li data-color="#2D31FA" class="nonactivecolor"></li>
+                <li data-color="#446A46" class="nonactivecolor"></li>
+            </ul>
+        </div>
+        <div class="background">
+            <h4>random backgrounds</h4>
+            <span data-reandomimg="yes">yes</span>
+            <span data-reandomimg="no">no</span>
+        </div>
+        <div class="showbullets">
+            <h4>show bullets</h4>
+            <span data-show="yes">yes</span>
+            <span data-show="no">no</span>
+        </div>
+        <div class="reset">
+            <button>reset</button>
+        </div>
+
+        <div class="infosetting"></div>
+    </div>
+    <div class="landing">
+        <div class="overlay"></div>
+        <header>
+            <span class="logo">special design</span>
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            <ul>
+                <li>
+                    <a class="activetext" data-section=".aboutus">about </a>
+                </li>
+                <li>
+                    <a data-section=".skills">skills</a>
+                </li>
+                <li>
+                    <a data-section=".gallery">gallery</a>
+                </li>
+                <li>
+                    <a data-section=".timeline">timeline</a>
+                </li>
+                <li>
+                    <a data-section=".feature">feature</a>
+                </li>
+                <li>
+                    <a data-section=".testimonials">testimonials</a>
+                </li>
+                <li>
+                    <a data-section=".contactus">contactus</a>
+                </li>
+            </ul>
+            </div>
+            
+        </header>
+        <div class="text">
+            <h1>we are <span class="activetext">creative</span> agency</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, mollitia excepturi! Provident
+                optio, vel, iusto obcaecati architecto officia accusantium recusandae
+                cumque explicabo odio consequuntur quas deleniti!
+            </p>
+        </div>
+    </div>
+    <!--start about us-->
+    <div class="aboutus">
+        <div class="container">
+            <div class="text">
+                <h1>about us</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                    repellendus repellat maxime et consequatur nulla libero ratione
+                    molestiae eos saepe similique, odio velit labore molestias? Eveniet,
+                    quam at. Tenetur, animi.
+                </p>
+            </div>
+            <div class="aboutimg">
+                <img src="images/about1.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <!--end about us-->
+    <!--start skills-->
+    <div class="skills">
+        <div class="container">
+            <h1>our skills</h1>
+            <div class="skillinfo">
+                <div class="skill">
+                    <p>html</p>
+                    <div class="progress">
+                        <span data-progres="80%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>css</p>
+                    <div class="progress">
+                        <span data-progres="70%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>js</p>
+                    <div class="progress">
+                        <span data-progres="90%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end skills-->
+    <div class="gallery">
+        <h1>gallery</h1>
+        <div class="imggallery container">
+            <figure>
+                <img src="imgs/undraw_Certification_re_ifll.png" alt="Trulli" />
+                <figcaption>Fig.1</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_Complete_design_re_h75h.png" alt="Trulli" />
+                <figcaption>Fig.2</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_Eiffel_tower_re_e11r.png" alt="Trulli" />
+                <figcaption>Fig.3</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_File_manager_re_ms29.png" alt="Trulli" />
+                <figcaption>Fig.4</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_Innovative_re_rr5i.png" alt="Trulli" />
+                <figcaption>Fig.5</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_Inspiration_re_ivlv.png" alt="Trulli" />
+                <figcaption>Fig.6</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_Mobile_development_re_wwsn.png" alt="Trulli" />
+                <figcaption>Fig.7</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_Mobile_user_re_xta4.png" alt="Trulli" />
+                <figcaption>Fig.8</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_Modern_design_re_dlp8 (1).png" alt="Trulli" />
+                <figcaption>Fig.9</figcaption>
+            </figure>
+            <figure>
+                <img src="imgs/undraw_Portfolio_website_re_jsdd.png" alt="Trulli" />
+                <figcaption>Fig.10</figcaption>
+            </figure>
+        </div>
+    </div>
+    <!--start timeline-->
+    <div class="timeline">
+        <div class="container">
+            <div class="line"></div>
+            <div class="yeartime">2022</div>
+            <div class="left">
+                <h2>testing heading</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Exercitationem rerum in, iusto, debitis officia perspiciatis
+                    pariatur commodi aliquid saepe aperiam reiciendis nihil quasi
+                    architecto quo accusamus facilis, repudiandae expedita nisi?
+                </p>
+            </div>
+            <div class="clearfloat"></div>
+            <div class="right">
+                <h2>testing heading</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Exercitationem rerum in, iusto, debitis officia perspiciatis
+                    pariatur commodi aliquid saepe aperiam reiciendis nihil quasi
+                    architecto quo accusamus facilis, repudiandae expedita nisi?
+                </p>
+            </div>
+            <div class="clearfloat"></div>
+            <div class="yeartime">2021</div>
+            <div class="left">
+                <h2>testing heading</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Exercitationem rerum in, iusto, debitis officia perspiciatis
+                    pariatur commodi aliquid saepe aperiam reiciendis nihil quasi
+                    architecto quo accusamus facilis, repudiandae expedita nisi?
+                </p>
+            </div>
+            <div class="clearfloat"></div>
+            <div class="right">
+                <h2>testing heading</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Exercitationem rerum in, iusto, debitis officia perspiciatis
+                    pariatur commodi aliquid saepe aperiam reiciendis nihil quasi
+                    architecto quo accusamus facilis, repudiandae expedita nisi?
+                </p>
+            </div>
+            <div class="clearfloat"></div>
+        </div>
+    </div>
+    <!--end timeline-->
+    <!--start feature-->
+    <div class="feature">
+        <div class="container">
+            <h1>our features</h1>
+            <div class="content">
+                <div class="feat">
+                    <img src="imgfeat/undraw_Features_overview_re_2w78.png" alt="">
+                    <h3>Flexibility </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nihil enim, mollitia officia
+                        cupiditate qui autem odio voluptatibus, excepturi consectetur harum ullam iusto reiciendis optio
+                        expedita saepe facilis doloremque totam!</p>
+                </div>
+                <div class="feat">
+                    <img src="imgfeat/undraw_Mobile_interface_re_1vv9.png" alt="">
+                    <h3>Efficiency
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nihil enim, mollitia officia
+                        cupiditate qui autem odio voluptatibus, excepturi consectetur harum ullam iusto reiciendis optio
+                        expedita saepe facilis doloremque totam!</p>
+                </div>
+                <div class="feat">
+                    <img src="imgfeat/undraw_Percentages_re_a1ao.png" alt="">
+                    <h3>Integrity </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nihil enim, mollitia officia
+                        cupiditate qui autem odio voluptatibus, excepturi consectetur harum ullam iusto reiciendis optio
+                        expedita saepe facilis doloremque totam!</p>
+                </div>
+                <div class="feat">
+                    <img src="imgfeat/undraw_product_iteration_kjok.png" alt="">
+                    <h3>Portability </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nihil enim, mollitia officia
+                        cupiditate qui autem odio voluptatibus, excepturi consectetur harum ullam iusto reiciendis optio
+                        expedita saepe facilis doloremque totam!</p>
+                </div>
+                <div class="feat">
+                    <img src="imgfeat/undraw_Reviewed_docs_re_9lmr.png" alt="">
+                    <h3>Maintainability </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nihil enim, mollitia officia
+                        cupiditate qui autem odio voluptatibus, excepturi consectetur harum ullam iusto reiciendis optio
+                        expedita saepe facilis doloremque totam!</p>
+                </div>
+                <div class="feat">
+                    <img src="imgfeat/undraw_Scrum_board_re_wk7v.png" alt="">
+                    <h3>Reliability</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nihil enim, mollitia officia
+                        cupiditate qui autem odio voluptatibus, excepturi consectetur harum ullam iusto reiciendis optio
+                        expedita saepe facilis doloremque totam!</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--end feature-->
+    <!--start testimonials-->
+    <div class="testimonials">
+        <h1>testimonials</h1>
+        <div class="content container">
+            <div class="test">
+                <p>“You run a great shop -- your products, your advice, your service, and your communication are top
+                    notch. Love the high level of trust I can place in Choosy Chick to always get it right!"</p>
+                <div>
+                    <img src="imgfeat/download.png" alt="">
+                    <div>
+                        <h4>ahmed ali</h4>
+                        <span>ceo at company</span>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="test">
+                <p>“You run a great shop -- your products, your advice, your service, and your communication are top
+                    notch. Love the high level of trust I can place in Choosy Chick to always get it right!"</p>
+                <div>
+                    <img src="imgfeat/1.png" alt="">
+                    <div>
+                        <h4>ahmed ali</h4>
+                        <span>ceo at company</span>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="test">
+                <p>“You run a great shop -- your products, your advice, your service, and your communication are top
+                    notch. Love the high level of trust I can place in Choosy Chick to always get it right!"</p>
+                <div>
+                    <img src="imgfeat/2.png" alt="">
+                    <div>
+                        <h4>ahmed ali</h4>
+                        <span>ceo at company</span>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end testimonials-->
+    <!--end feature-->
+
+    <!--bollets-->
+    <div class="bullets">
+        <div><span class="bullet" data-section=".aboutus"></span> <span class="text">about</span></div>
+        <div><span class="bullet" data-section=".skills"></span> <span class="text">skills</span></div>
+        <div><span class="bullet" data-section=".gallery"></span> <span class="text">gallery</span></div>
+        <div><span class="bullet" data-section=".timeline"></span> <span class="text"> timeline</span></div>
+        <div><span class="bullet" data-section=".feature"></span> <span class="text">feature</span></div>
+        <div><span class="bullet" data-section=".testimonials"></span> <span class="text">testimonials</span></div>
+        <div><span class="bullet" data-section=".contactus"></span> <span class="text">contactus</span></div>
+
+    </div>
+    <!--contact us-->
+    <div class="contactus">
+        <div class="container">
+            <div class="overlaycontact">
+
+            </div>
+            <h1>contact us</h1>
+            <form action="">
+                <div class="left">
+                    <input type="text"  placeholder="your name">
+                     <input type="text"  placeholder="your phone">
+                      <input type="text"  placeholder="your email">
+                       <input type="text"  placeholder="your subject">
+                </div>
+                <div class="right">
+                    <textarea name="" id="" cols="30" rows="10" value="message" placeholder="your message"></textarea>
+                    <button >send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        created by arwa ragab
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
